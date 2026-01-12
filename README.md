@@ -32,17 +32,21 @@ The **first 5 days** focus on **intermediate-level Excel**, emphasizing analysis
 
 ---
 
-### 📘 Day 2: Lookup Logic & Conditional Analysis
-**Focus:** Applying business logic using formulas  
+## 📅 Day 2 – Key Insights (Excel Analysis)
 
-**Key Concepts:**
-- VLOOKUP vs XLOOKUP (use-case driven)  
-- Nested IF / IFS for rule-based classification  
-- Conditional aggregations (SUMIFS, COUNTIFS)  
-- Text and date-based lookups  
-- Error handling (IFERROR, ISNA)  
+- Total patient records analyzed: 49,999
+- Average billing amount: $25,555.26
+- Average length of hospital stay (LOS): 15.5 days
+- Emergency admissions: 16,388 (32.8%)
+- Non-emergency admissions: 33,611 (67.2%)
+- Distinct medical conditions observed: 6
+- High-risk patients (Age > 60 & Billing > 20,000): 22.6%
 
-📂 File: `day02_lookup_conditional_analysis.xlsx`
+Data observations:
+Hospital and doctor counts are unusually high relative to patient count, suggesting synthetic or record-level identifiers.
+Billing averages across admission types are similar, indicating evenly distributed billing behavior in the dataset.
+
+📂 File: `Day02.csv`
 
 ---
 

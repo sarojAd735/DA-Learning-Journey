@@ -53,12 +53,17 @@ Billing averages across admission types are similar, indicating evenly distribut
 ### 📘 Day 3: Pivot Tables for Analytical Insights
 **Focus:** Summarizing and analyzing data effectively  
 
-**Key Concepts:**
-- Designing analytical pivot tables  
-- Grouping (dates, numeric ranges)  
-- Calculated fields & percentages  
-- Comparing categories and trends  
-- Using pivots to answer business questions  
+- Built multiple pivot tables to analyze billing, patient volume, and length of stay
+- Compared average and total billing across admission types
+- Analyzed LOS patterns by admission urgency
+- Evaluated high-risk patient distribution across age groups
+- Added interactive slicers for dynamic filtering
+
+Key Insights:
+• Billing per patient is consistent across admission types
+• Emergency admissions show the highest average LOS
+• High-risk patients are predominantly Adults and Seniors
+• High billing category represents the majority of patient records
 
 📂 File: `day03_pivot_analysis.xlsx`
 

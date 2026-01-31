@@ -87,10 +87,6 @@ Key Insights:
 **Focus:** Real-world mini project  
 
 **Project Scope:**
-- Problem definition & dataset understanding  
-- Data cleaning and preparation  
-- Business logic using formulas  
-- Pivot-based analysis  
 - Dashboard or summary insights sheet  
 - Key findings & recommendations  
 

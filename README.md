@@ -16,9 +16,9 @@ The **first 5 days** focus on **intermediate-level Excel**, emphasizing analysis
 
 ---
 
-## 📅 Learning Plan (Days 1–5: Applied Excel)
+# 🟢 Phase 1 – Applied Excel (Days 1–5)
 
-### 📘 Day 1: Data Profiling & Advanced Cleaning
+## 📘 Day 1: Data Profiling & Advanced Cleaning
 **Focus:** Understanding data quality and structure  
 
 **Key Concepts:**
@@ -32,25 +32,24 @@ The **first 5 days** focus on **intermediate-level Excel**, emphasizing analysis
 
 ---
 
-## 📅 Day 2 – Key Insights (Excel Analysis)
+## 📘 Day 2 – Key Insights (Excel Analysis)
+- Total patient records analyzed: **49,999**
+- Average billing amount: **$25,555.26**
+- Average length of hospital stay (LOS): **15.5 days**
+- Emergency admissions: **16,388 (32.8%)**
+- Non-emergency admissions: **33,611 (67.2%)**
+- Distinct medical conditions observed: **6**
+- High-risk patients (Age > 60 & Billing > 20,000): **22.6%**
 
-- Total patient records analyzed: 49,999
-- Average billing amount: $25,555.26
-- Average length of hospital stay (LOS): 15.5 days
-- Emergency admissions: 16,388 (32.8%)
-- Non-emergency admissions: 33,611 (67.2%)
-- Distinct medical conditions observed: 6
-- High-risk patients (Age > 60 & Billing > 20,000): 22.6%
-
-Data observations:
-Hospital and doctor counts are unusually high relative to patient count, suggesting synthetic or record-level identifiers.
-Billing averages across admission types are similar, indicating evenly distributed billing behavior in the dataset.
+**Data observations:**
+- Hospital and doctor counts are unusually high relative to patient count, suggesting synthetic or record-level identifiers.
+- Billing averages across admission types are similar, indicating evenly distributed billing behavior in the dataset.
 
 📂 File: `Day02.csv`
 
 ---
 
-### 📘 Day 3: Pivot Tables for Analytical Insights
+## 📘 Day 3: Pivot Tables for Analytical Insights
 **Focus:** Summarizing and analyzing data effectively  
 
 - Built multiple pivot tables to analyze billing, patient volume, and length of stay
@@ -59,17 +58,17 @@ Billing averages across admission types are similar, indicating evenly distribut
 - Evaluated high-risk patient distribution across age groups
 - Added interactive slicers for dynamic filtering
 
-Key Insights:
-• Billing per patient is consistent across admission types
-• Emergency admissions show the highest average LOS
-• High-risk patients are predominantly Adults and Seniors
-• High billing category represents the majority of patient records
+**Key Insights:**
+- Billing per patient is consistent across admission types
+- Emergency admissions show the highest average LOS
+- High-risk patients are predominantly Adults and Seniors
+- High billing category represents the majority of patient records
 
 📂 File: `day03_pivot_analysis.xlsx`
 
 ---
 
-### 📘 Day 4: Excel Dashboards & Visualization
+## 📘 Day 4: Excel Dashboards & Visualization
 **Focus:** Communicating insights clearly  
 
 **Key Concepts:**
@@ -83,7 +82,7 @@ Key Insights:
 
 ---
 
-### 📘 Day 5: End-to-End Excel Case Study
+## 📘 Day 5: End-to-End Excel Case Study
 **Focus:** Real-world mini project  
 
 **Project Scope:**
@@ -104,8 +103,32 @@ Key Insights:
 
 ---
 
+# 🔵 Phase 2 – SQL (PostgreSQL)
+
+SQL analysis is performed on the **cleaned dataset generated during the Excel phase** to ensure consistency and analytical reliability.
+
+---
+
+## 📘 Day 6: PostgreSQL Setup & Data Ingestion
+**Focus:** Database initialization and loading the cleaned dataset into PostgreSQL
+
+**Work Completed:**
+- Created a dedicated schema: `healthcare`
+- Created an analytics-ready table: `healthcare.healthcare_patients`
+- Imported the cleaned CSV file into PostgreSQL using `COPY`
+- Verified successful ingestion (row count and basic checks)
+
+**Files:**
+- `sql/01_schema.sql`
+- `sql/02_load.sql`
+- `sql/03_verify.sql`
+
+---
+
 ## 🛠 Tools Used
 - Microsoft Excel  
+- PostgreSQL  
+- pgAdmin  
 - Real-world / open datasets  
 
 ---
